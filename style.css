@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+    background-color: #f5f5f7;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 40px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  header .logo img {
+    height: 24px;
+  } 
+  
+  nav ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+  }
+  
+
+  
+  nav ul li a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #0071e3;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    background-color: #000;
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #0071e3;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .items-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+  }
+  .items-content p:hover {
+
+    color: #0071e3;
+  }
+ .ma{
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 50px;
+    text-align: center;
+    gap: 15px;
+
+ }
+ .ip{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 15px;
+ }
+ .ia{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 15px;
+ }
+ .wa{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 15px;
+
+ }
+ .ap{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 15px;
+ }
+ .at{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 15px;
+ }
+ .al{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 15px;
+    
+ }
+ .grid{
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    width: 100%;
+    height:60vh;
+    border-radius: 10px;
+ }
+
+ .iphone{
+    background-color: #000;
+    border-radius: 20px;
+    text-align: 20px;
+    padding: 60px ;
+    width: 400px;
+    color: white;
+    
+    
+ }
+ .watch{
+    background-color:white;
+    text-align: 20px;
+    border-radius: 20px;
+    padding: 60px;
+    width: 400px;
+
+ }
+ .ipad{
+    background-color:white;
+    text-align: 20px;
+    border-radius: 20px;
+    padding: 60px;
+    width: 400px;
+ }
+ .out{
+    text-align: justify;
+    padding: 20px;
+    background-color: #f5f5f7;
+    font-size: 14px;
+    margin-top: 10vh;
+    margin-left: 70px;
+    margin-right: 70px;
+    justify-content: center;
+ }
+ 
+
+ 
+  
+  footer {
+    margin-top: 0vh;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f7;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
